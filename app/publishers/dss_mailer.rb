@@ -1,6 +1,6 @@
 # Sends e-mails.
 class DssMailer < ActionMailer::Base
-  default from: 'DSS IT Service Center <noreply@dss.ucdavis.edu>'
+  default from: 'Letters and Science IT Service Center <lshelp@ucdavis.edu>'
 
   def deliver_message(subject, message, message_receipt_id, member, footer)
     @message = message
